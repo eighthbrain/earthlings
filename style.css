@@ -2059,11 +2059,24 @@ p.post-description {
 .article.featured .postImg {
     height: 50vh;
 }
-  .HeaderDivider { height: 65px; }
+  .HeaderDivider { 
+    height: 65px; 
+  }
+  .header__toggle {
+    top: 12px;
+}
+  .logoContainer {
+    top: 17px;
+}
 }
 
 @media(max-width:767px){
-  .HeaderDivider { height: 65px; }
+   .header__toggle {
+    top: 12px;
+}
+  .HeaderDivider { 
+    height: 65px; 
+  }
   
   button.header__toggle.link {
       display: block;
