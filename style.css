@@ -2077,6 +2077,9 @@ p.post-description {
   .HeaderDivider { 
     height: 65px; 
   }
+  .logoContainer {
+    top: 17px;
+}
   
   button.header__toggle.link {
       display: block;
